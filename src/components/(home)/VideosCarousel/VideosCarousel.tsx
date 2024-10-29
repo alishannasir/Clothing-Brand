@@ -6,10 +6,17 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import { videos } from "@/lib/db";
+import Autoplay from "embla-carousel-autoplay";
 
 export function VideosCarousel() {
   return (
-    <Carousel className="w-full h-full relative">
+    <Carousel className="w-full h-full relative"
+    plugins={[
+        Autoplay({
+          delay: 5000,
+        }),
+      ]}
+    >
       <CarouselContent>
         {videos.map((video) => (
           <CarouselItem key={video.id} className="relative">
