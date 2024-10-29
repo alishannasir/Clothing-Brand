@@ -18,21 +18,23 @@ export function VideosCarousel() {
               className="w-full h-auto object-cover"
               autoPlay
               muted
-              loop
+              loop           
               width="100%"
               height="auto"
+              playsInline
+              preload="auto"                  
             >
               <source src={video.url} type="video/mp4" />
             </video>
 
             {/* Noise Overlay */}
-            <div
+            {/* <div
               className="absolute inset-0 opacity-20 pointer-events-none mix-blend-multiply"
               style={{
                 backgroundImage: `url("https://example.com/path-to-noise-texture.png")`, // Use an actual noise image or pattern
                 backgroundSize: "cover",
               }}
-            ></div>
+            ></div> */}
           </CarouselItem>
         ))}
       </CarouselContent>

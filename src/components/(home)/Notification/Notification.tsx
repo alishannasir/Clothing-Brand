@@ -15,12 +15,12 @@ import { fontRoboto } from "@/app/font"
 
 export function Notification() {
   return (
-    <Carousel className="w-full h-18" opts={{ loop: true }} >
+    <Carousel className="w-full" opts={{ loop: true }} >
         <CarouselContent className="border-none">
             {notifications.map((item, index) => (
             <CarouselItem key={index}>
-                <Card className="border-none">
-                    <CardContent className="flex  items-center justify-center p-2">
+                <Card className="">
+                    <CardContent className="flex  items-center justify-center p-2 rounded-full">
                     <span className={`text-lg font-light ${fontRoboto.className}`}>{item.message}</span>
                     </CardContent>
                 </Card>
