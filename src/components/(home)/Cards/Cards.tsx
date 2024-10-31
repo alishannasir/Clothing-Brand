@@ -20,7 +20,7 @@ export function CardsImages() {
           width={450}
           height={550}
         />
-      <Button className="w-full bg-transparent text-black rounded-none border-grey-700 border-2 hover:bg-transparent hover:text-gray-500 font-mono">Add to cart</Button>
+      <Button className="w-full bg-transparent text-black rounded-none border-grey-700 border-2 hover:bg-transparent hover:text-white hover:bg-slate-300 font-mono">Add to cart</Button>
     </Card>
   ))}
 </div>

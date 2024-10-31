@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { components } from "@/lib/db"
 
-export function Navbar() {
+export function NavbarText() {
   return (
     <NavigationMenu>
       <NavigationMenuList>

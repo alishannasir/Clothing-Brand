@@ -56,9 +56,9 @@ export function CollectionSpring() {
           {photosSpring.map((photo) => (
             <CarouselItem key={photo.id} className="relative">
               <Image
-                className="w-full h-auto object-cover"
-                width={600}
-                height={400}
+                className="w-full h-full object-cover"
+                width={800}
+                height={800}
                 src={photo.url}
                 alt={photo.title}
               />
