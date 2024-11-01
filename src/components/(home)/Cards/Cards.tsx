@@ -12,7 +12,7 @@ export function CardsImages() {
     <>
    <div className="flex flex-wrap justify-center items-center gap-2">
   {Cards.map((card) => (
-    <Card key={card.id} className="w-[350px] h-[550px] flex flex-col hover:scale-95 transition-all duration-300">
+    <Card key={card.id} className="w-[350px] h-[550px] flex flex-col hover:scale-95  transition-all duration-300">
         <Image
           src={card.url}
           alt={card.title}

@@ -17,7 +17,7 @@ import {
     };
   
     return (
-      <Pagination>
+      <Pagination className="flex flex-row items-center justify-center my-4">
         <PaginationContent>
           <PaginationItem>
             <PaginationPrevious href="#" onClick={handlePrevious} />

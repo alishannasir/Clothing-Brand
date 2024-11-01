@@ -18,8 +18,9 @@ export function Navbar() {
 
   return (
     <>
-      <div className="flex flex-row justify-between items-center px-20 h-20 bg-transparent backdrop-blur-md transition-colors duration-300  text-black scrolled:bg-white scrolled:text-white">
+      <div className="flex flex-row justify-around items-center w-full  h-20 bg-transparent backdrop-blur-md transition-colors duration-300  text-black scrolled:bg-white scrolled:text-white">
         <NavbarText />
+          <h1 className="font-bold text-2xl font-serif">Muse Market</h1>
         <Icons onSearchClick={handleOpenDrawer} onCartClick={handleOpenCart} />
       </div>
 

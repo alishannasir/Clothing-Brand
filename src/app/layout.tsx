@@ -4,8 +4,8 @@ import { fontRoboto } from "./font";
 import Footer from "@/components/footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 export const metadata: Metadata = {
-  title: "Clothing Brand",
-  description: "Clothing Brand",
+  title: "Muse Market",
+  description: "This brand curates trendy, stylish pieces at affordable prices, bringing you the best of fashion without breaking the bank. Each item is thoughtfully selected to keep you ahead of the trends while staying budget-friendly",
 };
 
 export default function RootLayout({
